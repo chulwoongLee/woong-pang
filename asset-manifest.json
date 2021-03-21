@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/coupang-partners-woong/static/css/main.6f192e6c.chunk.css",
+    "main.js": "/coupang-partners-woong/static/js/main.b47b78bc.chunk.js",
+    "runtime-main.js": "/coupang-partners-woong/static/js/runtime-main.6a8d5b17.js",
+    "static/js/2.9732dbff.chunk.js": "/coupang-partners-woong/static/js/2.9732dbff.chunk.js",
+    "static/js/3.79239f44.chunk.js": "/coupang-partners-woong/static/js/3.79239f44.chunk.js",
+    "index.html": "/coupang-partners-woong/index.html",
+    "static/js/2.9732dbff.chunk.js.LICENSE.txt": "/coupang-partners-woong/static/js/2.9732dbff.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/coupang-partners-woong/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a8d5b17.js",
+    "static/js/2.9732dbff.chunk.js",
+    "static/css/main.6f192e6c.chunk.css",
+    "static/js/main.b47b78bc.chunk.js"
+  ]
+}
