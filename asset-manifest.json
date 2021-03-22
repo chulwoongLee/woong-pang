@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coupang-partners-woong/static/css/main.3eb12e6e.chunk.css",
-    "main.js": "/coupang-partners-woong/static/js/main.7f596f3b.chunk.js",
+    "main.js": "/coupang-partners-woong/static/js/main.663eb309.chunk.js",
     "runtime-main.js": "/coupang-partners-woong/static/js/runtime-main.988a3a91.js",
     "static/js/2.b64b905d.chunk.js": "/coupang-partners-woong/static/js/2.b64b905d.chunk.js",
     "static/js/3.58911227.chunk.js": "/coupang-partners-woong/static/js/3.58911227.chunk.js",
@@ -13,6 +13,6 @@
     "static/js/runtime-main.988a3a91.js",
     "static/js/2.b64b905d.chunk.js",
     "static/css/main.3eb12e6e.chunk.css",
-    "static/js/main.7f596f3b.chunk.js"
+    "static/js/main.663eb309.chunk.js"
   ]
 }
