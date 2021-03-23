@@ -37,17 +37,19 @@ const Example = () => {
         initial={false}
         animate={isOpen ? "open" : "closed"}
       >
-        <motion.div style={{position:"absolute",width:"300px",background:"#fff"}} className={"background"} variants={sidebar} />
+        <motion.div style={{ position: "absolute", width: "300px", background: "#fff" }} className={"background"} variants={sidebar} />
         <MenuToggle toggle={() => { toggleOpen(!isOpen); }} />
-        <Navigation/>
+        <Navigation />
 
       </motion.nav>
-      <div style={{marginTop:70}}>
-        <Typography variant="h6" align="center">카테고리1 → 상품명</Typography>
+      <div style={{ marginTop: 70 }}>
+        <Typography variant="h6" align="center">카테고리1 → 상품명(임시)</Typography>
       </div>
-      <div style={{ height: 400, overflowY: "scroll",display:"flex",flexWrap:"wrap" }}>
-        <iframe src="https://coupa.ng/bTV4nQ" title="쿠팡제공페이지" style={{ zIndex: isOpen ? 1 : 9999,backgroundColor:"#FFFFFF",margin:15,width:300 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-        <iframe src="https://coupa.ng/bTWAxY" title="쿠팡제공페이지" style={{ zIndex: isOpen ? 1 : 9999,backgroundColor:"#FFFFFF",margin:15,width:300 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+      <div style={{ height: 410, overflowY: "scroll", display: "flex", flexWrap: "wrap" }}>
+        <div style={{ zIndex: isOpen ? 1 : 9999 }}><iframe src="https://coupa.ng/bT1C37" title="쿠팡제공페이지" style={{ backgroundColor: "#FFFFFF", margin: 15, width: 290 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe></div>
+        <div style={{ zIndex: isOpen ? 1 : 9999 }}><iframe src="https://coupa.ng/bT1hGY" title="쿠팡제공페이지" style={{ backgroundColor: "#FFFFFF", margin: 15, width: 290 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe></div>
+        <div style={{ zIndex: isOpen ? 1 : 9999 }}><iframe src="https://coupa.ng/bTV4nQ" title="쿠팡제공페이지" style={{ backgroundColor: "#FFFFFF", margin: 15, width: 290 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe></div>
+        <div style={{ zIndex: isOpen ? 1 : 9999 }}><iframe src="https://coupa.ng/bTWAxY" title="쿠팡제공페이지" style={{ backgroundColor: "#FFFFFF", margin: 15, width: 290 }} width="100%" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe></div>
       </div>
     </Fragment>
 
