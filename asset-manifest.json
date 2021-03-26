@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/coupang-partners-woong/static/css/main.3eb12e6e.chunk.css",
-    "main.js": "/coupang-partners-woong/static/js/main.ddb59c1b.chunk.js",
-    "runtime-main.js": "/coupang-partners-woong/static/js/runtime-main.436469e9.js",
+    "main.js": "/coupang-partners-woong/static/js/main.156bea18.chunk.js",
+    "runtime-main.js": "/coupang-partners-woong/static/js/runtime-main.384a2107.js",
     "static/css/2.a1f2f46b.chunk.css": "/coupang-partners-woong/static/css/2.a1f2f46b.chunk.css",
-    "static/js/2.1ddb02c9.chunk.js": "/coupang-partners-woong/static/js/2.1ddb02c9.chunk.js",
-    "static/js/3.cbc0b34d.chunk.js": "/coupang-partners-woong/static/js/3.cbc0b34d.chunk.js",
+    "static/js/2.31d70400.chunk.js": "/coupang-partners-woong/static/js/2.31d70400.chunk.js",
+    "static/js/3.120c75b4.chunk.js": "/coupang-partners-woong/static/js/3.120c75b4.chunk.js",
     "index.html": "/coupang-partners-woong/index.html",
-    "static/js/2.1ddb02c9.chunk.js.LICENSE.txt": "/coupang-partners-woong/static/js/2.1ddb02c9.chunk.js.LICENSE.txt",
+    "static/js/2.31d70400.chunk.js.LICENSE.txt": "/coupang-partners-woong/static/js/2.31d70400.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/coupang-partners-woong/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.436469e9.js",
+    "static/js/runtime-main.384a2107.js",
     "static/css/2.a1f2f46b.chunk.css",
-    "static/js/2.1ddb02c9.chunk.js",
+    "static/js/2.31d70400.chunk.js",
     "static/css/main.3eb12e6e.chunk.css",
-    "static/js/main.ddb59c1b.chunk.js"
+    "static/js/main.156bea18.chunk.js"
   ]
 }
