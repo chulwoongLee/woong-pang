@@ -8,6 +8,7 @@ export default function Main() {
     const [contentType, setContentType] = useState("swipe");
     useEffect(() => {
         document.body.style.background = '#F6F6F6';
+        document.body.style.overscrollBehavior = "contain";
     }, []);
 
     return (
