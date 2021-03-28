@@ -18,21 +18,21 @@ function Main(props) {
     }
     return (
         <Fragment>
-            <div style={{ height: 440, overflowY: "scroll" }}>
+            <div style={{ height: "100%", overflowY: "scroll" }}>
                 {listStatus &&
 
                     <Swiper
-                        style={{ height: 440, zIndex: 0 }}
+                        style={{ height: "100%", zIndex: 0 }}
                         slidesPerView={1}
                         pagination={true}
                     >
                         {listData.filter(data => data.code === props.pickItem)[0].data.map((dataList, index) => (
                             index < 20 &&
                             <SwiperSlide key={index} style={{ textAlign: "center" }}>
-                                <Typography variant="body1" style={{fontWeight:"bold"}} align="center">{dataList.productName}</Typography>
-                                <img src={dataList.productImage} style={{ width: 260, height: 260 }} />
-                                <Typography variant="h6" style={{marginBottom:10}} align="center">{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
-                                <div style={{textAlign:"center"}}><Button variant="contained" style={{ width: "80%" }} fullWidth color="primary" onClick={() => { openCoupangPopup(dataList.productUrl); }}><Typography style={{fontSize:20}} align="center">구매하러가기</Typography></Button></div>
+                                <Typography variant="body1" style={{fontWeight:"bold",marginLeft:15,marginRight:15,height:50}} align="center">{dataList.productName}</Typography>
+                                <img src={dataList.productImage}width="260"height="260" />
+                                <Typography variant="h6" style={{marginBottom:5,fontSize:18}} align="center">{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
+                                <div style={{textAlign:"center"}}><Button variant="contained" style={{ width: "80%" }} fullWidth color="primary" onClick={() => { openCoupangPopup(dataList.productUrl); }}><Typography style={{fontSize:18}} align="center">구매하러가기</Typography></Button></div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
