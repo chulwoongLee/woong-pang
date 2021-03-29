@@ -15,8 +15,8 @@ function Main(props) {
         <Fragment>
             <div ref={listRef} style={{ height: "100%", display: "flex", flexWrap: "wrap", overflowY: "scroll", justifyContent: "center" }}>
                 {listData.filter(data => data.code === props.pickItem)[0].data.map((dataList, index) => (
-                    <div style={{ width: 120, height: 180, margin: 5 }} key={index}>
-                        <img src={dataList.productImage}width="120"height="120" onClick={() => { setPickItem(dataList); }} />
+                    <div style={{ width: 140, height: 180, margin: 5 }} key={index}>
+                        <img src={dataList.productImage}width="140"height="140" onClick={() => { setPickItem(dataList); }} />
                         <Typography variant="body2" align="center" style={{marginTop:5}}>{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
                     </div>
                 ))}

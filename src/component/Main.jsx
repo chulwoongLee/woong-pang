@@ -2,8 +2,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import Menu from "./Menu";
 import Contents from "./Contents";
 import Contents2 from "./Contents2";
+import {listData} from "src/module/common";
 import { Container, Typography } from "@material-ui/core";
-import footerImg from "src/img/footer.png";
 export default function Main() {
     const [pickItem, setPickItem] = useState("1001");
     const [contentType, setContentType] = useState("list");
@@ -14,9 +14,10 @@ export default function Main() {
 
     return (
         <Fragment>
-            <Container maxWidth="sm" style={{ height: "100%" }}>
+            <Container maxWidth="sm" style={{ height: "100%"}}>
+            <iframe src="https://coupa.ng/bUB1hN"style={{backgroundColor:"#FFFFFF"}} title="쿠팡검색" width="100%" height="44" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
                 <Menu pickItem={pickItem} setPickItem={setPickItem} contentType={contentType} setContentType={setContentType} />
-                <div style={{ height: 450 }}>
+                <div style={{ height: 426 }}>
                     {contentType === "list" && <Contents2 pickItem={pickItem} />}
                     {contentType === "swipe" && <Contents pickItem={pickItem} />}
                     {contentType === "search" && <div style={{ width: "100%", height: "100%", display: "flex", backgroundColor: "#FFFFFF" }}><iframe style={{ alignSelf: "center" }} src="https://coupa.ng/bUqyTS" title="쿠팡검색" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe></div>}
