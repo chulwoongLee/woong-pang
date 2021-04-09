@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/coupang-partners-woong/static/css/main.1359096b.chunk.css",
-    "main.js": "/coupang-partners-woong/static/js/main.cc30d995.chunk.js",
-    "runtime-main.js": "/coupang-partners-woong/static/js/runtime-main.03027820.js",
-    "static/css/2.a1f2f46b.chunk.css": "/coupang-partners-woong/static/css/2.a1f2f46b.chunk.css",
-    "static/js/2.a835cc14.chunk.js": "/coupang-partners-woong/static/js/2.a835cc14.chunk.js",
-    "static/js/3.e817f737.chunk.js": "/coupang-partners-woong/static/js/3.e817f737.chunk.js",
-    "index.html": "/coupang-partners-woong/index.html",
-    "static/js/2.a835cc14.chunk.js.LICENSE.txt": "/coupang-partners-woong/static/js/2.a835cc14.chunk.js.LICENSE.txt",
-    "static/media/coupangGoldEvent.a3e4a0fd.jpeg": "/coupang-partners-woong/static/media/coupangGoldEvent.a3e4a0fd.jpeg"
+    "main.css": "/woong-pang/static/css/main.1359096b.chunk.css",
+    "main.js": "/woong-pang/static/js/main.56672254.chunk.js",
+    "runtime-main.js": "/woong-pang/static/js/runtime-main.2682d11a.js",
+    "static/css/2.a1f2f46b.chunk.css": "/woong-pang/static/css/2.a1f2f46b.chunk.css",
+    "static/js/2.a835cc14.chunk.js": "/woong-pang/static/js/2.a835cc14.chunk.js",
+    "static/js/3.e817f737.chunk.js": "/woong-pang/static/js/3.e817f737.chunk.js",
+    "index.html": "/woong-pang/index.html",
+    "static/js/2.a835cc14.chunk.js.LICENSE.txt": "/woong-pang/static/js/2.a835cc14.chunk.js.LICENSE.txt",
+    "static/media/coupangGoldEvent.a3e4a0fd.jpeg": "/woong-pang/static/media/coupangGoldEvent.a3e4a0fd.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.03027820.js",
+    "static/js/runtime-main.2682d11a.js",
     "static/css/2.a1f2f46b.chunk.css",
     "static/js/2.a835cc14.chunk.js",
     "static/css/main.1359096b.chunk.css",
-    "static/js/main.cc30d995.chunk.js"
+    "static/js/main.56672254.chunk.js"
   ]
 }
