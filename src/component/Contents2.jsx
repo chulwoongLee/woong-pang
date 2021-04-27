@@ -13,7 +13,7 @@ function Main(props) {
     }
     return (
         <Fragment>
-            <div ref={listRef} style={{ height: "100%", display: "flex", flexWrap: "wrap", overflowY: "scroll", justifyContent: "center" }}>
+            <div ref={listRef} style={{ height:window.innerHeight-150, display: "flex", flexWrap: "wrap", overflowY: "scroll", justifyContent: "center" }}>
                 {listData.filter(data => data.code === props.pickItem)[0].data.map((dataList, index) => (
                     <div style={{ width: 140, height: 180, margin: 5 }} key={index}>
                         <img src={dataList.productImage}width="140"height="140" onClick={() => { setPickItem(dataList); }} />

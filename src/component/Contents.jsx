@@ -18,11 +18,11 @@ function Main(props) {
     }
     return (
         <Fragment>
-            <div style={{ height: "100%", overflowY: "scroll" }}>
+            <div style={{ overflowY: "scroll" }}>
                 {listStatus &&
 
                     <Swiper
-                        style={{ height: "100%", zIndex: 0 }}
+                        style={{ minHeight:426, zIndex: 0 }}
                         slidesPerView={1}
                         pagination={true}
                     >
