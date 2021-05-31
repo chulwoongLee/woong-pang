@@ -30,7 +30,7 @@ function Main(props) {
                             index < 20 &&
                             <SwiperSlide key={index} style={{ textAlign: "center" }}>
                                 <Typography variant="body1" style={{fontWeight:"bold",marginLeft:15,marginRight:15,height:50}} align="center">{dataList.productName}</Typography>
-                                <img src={dataList.productImage}width="260"height="260" />
+                                <img alt="" src={dataList.productImage}width="260"height="260" />
                                 <Typography variant="h6" style={{marginBottom:5,fontSize:18}} align="center">{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
                                 <div style={{textAlign:"center"}}><Button variant="contained" style={{ width: "80%" }} fullWidth color="primary" onClick={() => { openCoupangPopup(dataList.productUrl); }}><Typography style={{fontSize:18}} align="center">구매하러가기</Typography></Button></div>
                             </SwiperSlide>

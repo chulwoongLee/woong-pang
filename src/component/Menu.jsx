@@ -11,7 +11,7 @@ function SearchArea(props) {
             <div style={{ overflowY: "hidden", height: "85%" }}>
                 <div style={{ display: "flex" }}>
                     <TextField style={{ flexGrow: 1 }} label="카테고리를 입력하여 주십시오" value={findText} onChange={(e) => { setFindText(e.target.value); }} />
-                    <Search fontSize="default" style={{ textAlign: "center" }} />
+                    <Search fontSize="default" style={{ alignSelf:"center" }} />
                 </div>
                 <div style={{ alignItems: "center", overflowY: "scroll", height: "85%" }}>
                     <List component="div" disablePadding>
