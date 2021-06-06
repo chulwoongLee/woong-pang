@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/woong-pang/static/css/main.1359096b.chunk.css",
-    "main.js": "/woong-pang/static/js/main.cc24dcdd.chunk.js",
+    "main.js": "/woong-pang/static/js/main.2252b06d.chunk.js",
     "runtime-main.js": "/woong-pang/static/js/runtime-main.2d2a685d.js",
     "static/css/2.a1f2f46b.chunk.css": "/woong-pang/static/css/2.a1f2f46b.chunk.css",
-    "static/js/2.430d98cd.chunk.js": "/woong-pang/static/js/2.430d98cd.chunk.js",
+    "static/js/2.38427b8b.chunk.js": "/woong-pang/static/js/2.38427b8b.chunk.js",
     "static/js/3.fd373f11.chunk.js": "/woong-pang/static/js/3.fd373f11.chunk.js",
     "index.html": "/woong-pang/index.html",
-    "static/js/2.430d98cd.chunk.js.LICENSE.txt": "/woong-pang/static/js/2.430d98cd.chunk.js.LICENSE.txt",
+    "static/js/2.38427b8b.chunk.js.LICENSE.txt": "/woong-pang/static/js/2.38427b8b.chunk.js.LICENSE.txt",
     "static/media/coupangGoldEvent.a3e4a0fd.jpeg": "/woong-pang/static/media/coupangGoldEvent.a3e4a0fd.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d2a685d.js",
     "static/css/2.a1f2f46b.chunk.css",
-    "static/js/2.430d98cd.chunk.js",
+    "static/js/2.38427b8b.chunk.js",
     "static/css/main.1359096b.chunk.css",
-    "static/js/main.cc24dcdd.chunk.js"
+    "static/js/main.2252b06d.chunk.js"
   ]
 }
