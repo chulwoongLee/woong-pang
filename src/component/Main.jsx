@@ -3,8 +3,8 @@ import Menu from "./Menu";
 import Contents from "./Contents";
 import Contents2 from "./Contents2";
 import { Container, Typography } from "@material-ui/core";
-export default function Main() {
-    const [pickItem, setPickItem] = useState("1029");
+export default function Main(props) {
+    const [pickItem, setPickItem] = useState(props.pageCode);
     const [contentType, setContentType] = useState("list");
     useEffect(() => {
         document.body.style.background = '#F6F6F6';
@@ -21,7 +21,7 @@ export default function Main() {
                     {contentType === "swipe" && <Contents pickItem={pickItem} />}
                 </div>
                 <footer style={{ marginTop: 15,flexGrow:1, marginBottom: 5, position: "absolute", width: "95%", maxWidth: "600px", bottom: 0, textAlign: "center",backgroundColor:"#F6F6F6" }}>
-                    <Typography variant="caption" style={{ fontWeight: "bold", fontSize: 10 }}>※ 쿠팡 파트너스 활동을 통한 일정액의 수수료를 제공받을 수 있습니다.<br />Copyright © 이철웅 ytooktoo2@nate.com(개발문의)</Typography>
+                    <Typography variant="caption" style={{ fontWeight: "bold", fontSize: 10 }}>※ 파트너스 활동을 통한 일정액의 수수료를 제공받을 수 있습니다.<br />Copyright © 이철웅 ytooktoo2@nate.com(개발문의)</Typography>
                 </footer>
             </Container>
         </Fragment>

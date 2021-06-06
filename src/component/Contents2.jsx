@@ -18,6 +18,7 @@ function Main(props) {
                 {listData.filter(data => data.code === props.pickItem)[0].data.map((dataList, index) => (
                     <div style={{ width: 140, height: 180, margin: 5 }} key={index}>
                         <img alt="" src={dataList.productImage} width="140" height="140" onClick={() => { setPickItem(dataList); }} />
+                        <input type="hidden"value={dataList.productName}/>
                         <Typography variant="body2" align="center" style={{marginTop:5}}>{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
                     </div>
                 ))}
