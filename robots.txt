@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /
 Sitemap: https://chulwoonglee.github.io/woong-pang/sitemap.xml
