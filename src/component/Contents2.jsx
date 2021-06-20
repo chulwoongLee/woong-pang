@@ -16,9 +16,9 @@ function Main(props) {
         <Fragment>
             <div ref={listRef} style={{ height:useMediaQuery({ maxHeight:800 })?window.innerHeight-150:window.innerHeight-150, display: "flex", flexWrap: "wrap", overflowY: "scroll", justifyContent: "center" }}>
                 {listData.filter(data => data.code === props.pickItem)[0].data.map((dataList, index) => (
-                    <div style={{ width: 140, height: 180, margin: 5 }} key={index}>
+                    <div style={{ width: 140, height: 220, margin: 5 }} key={index}>
                         <img alt="" src={dataList.productImage} width="140" height="140" onClick={() => { setPickItem(dataList); }} />
-                        <input type="hidden"value={dataList.productName}/>
+                        <input type="label" style={{width:"100%",height:40,backgroundColor:"rgba( 255, 255, 255, 0.5 )",borderWidth:0}} value={dataList.productName}/>
                         <Typography variant="body2" align="center" style={{marginTop:5}}>{dataList.productPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원</Typography>
                     </div>
                 ))}
