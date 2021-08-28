@@ -1,3 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: https://chulwoonglee.github.io/woong-pang/sitemap.xml
+Sitemap: https://chulwoonglee.github.io/woong-pang/sitemapcopy.xml
